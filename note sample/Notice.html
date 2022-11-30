@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div class="notice">
+            <div class="Notice-header-box">
+                <div onclick="deleteContact(${i})" class="Notice-header-over"><b>${noteTitel}</b><b  class="delete-note-icon">X</b></div>
+            </div>
+            <div class="notice-main-container">
+                <textarea oninput="auto_grow(this1)"  disabled class="notice-main">${note}</textarea>
+            </div>
+            <div class="notice-bottom">
+                <div class="notice-bottom-left"></div>
+                <div class="notice-bottom-right"></div>
+            </div>
+        </div>
+</body>
+</html>
